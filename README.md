@@ -57,6 +57,7 @@ Smart validation to handle incorrect inputs with feedback
 ---
 
 ## 📁 File Structure
+```
 Morbin‑X/
 ├── docs/
 │   ├── index.html        ← your main UI file
@@ -66,12 +67,15 @@ Morbin‑X/
 ├── .gitignore           ← files to ignore (e.g. node_modules)
 ├── tailwind.config.js   ← Tailwind CSS config (if applicable)
 └── package.json         ← npm dependencies (if you used npm/Tailwind CLI)
-
+```
 ---
 
 ## 🧛 Fun Easter Eggs
-Trying Morse → Morse? You’ll get cheeky feedback:
+Trying Morse → Morse? 
+You’ll get cheeky feedback:
+
 “Morbius is impressed. You morbed Morse into more Morse 🧛‍♂️”
+
 Extra hover animations, reactive icons, and immersive vibes.
 
 ## 💡 Contributing
@@ -86,4 +90,4 @@ GitHub: https://github.com/D36ash1sh
 MIT License — because even vampires love open source.
 
 
-## 🎨 Made with caffeine and Morbin magic by Debashish
+🎨 Made with caffeine and Morbin magic by Debashish
