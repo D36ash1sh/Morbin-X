@@ -68,9 +68,7 @@ Morbin‑X/
 🧛 Fun Easter Eggs
 Trying Morse → Morse? You’ll get cheeky feedback:
 “Morbius is impressed. You morbed Morse into more Morse 🧛‍♂️”
-
 Extra hover animations, reactive icons, and immersive vibes.
-
 
 💡 Contributing
 Feel free to fork, add features, adjust UI, or fix bugs—just shoot a PR!
@@ -84,5 +82,4 @@ GitHub: https://github.com/D36ash1sh
 MIT License — because even vampires love open source.
 
 
-Made with caffeine and Morbin magic
-by Debashish
+🎨 Made with caffeine and Morbin magic by Debashish
