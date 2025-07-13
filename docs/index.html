@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MorbinX</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="min-h-screen w-full px-5 py-10 bg-[radial-gradient(125%_125%_at_50%_10%,#000_40%,#63e_100%)] text-black">
+
+    <div id="container" class="relative w-full max-w-3xl min-h-[600px] lg:min-h-[650px] mx-auto px-8 py-5 rounded-lg overflow-hidden ">
+        <div class="absolute inset-0 -z-10 bg-white bg-[radial-gradient(100%_50%_at_50%_0%,rgba(173,109,244,0.3)_0,rgba(255,255,255,0)_60%,#fff_100%)]"></div>
+
+
+
+    <div class="font-pressStart2p text-center">
+    <h1 class="text-3xl sm:text-3xl md:text-4xl lg:text-5xl tracking-wider leading-tight flicker">
+    <span class="flicker-hover"> Morbin </span>
+    <span class="flicker-hover"> X </span>
+    </h1>
+
+        
+        <p class="mt-4 text-sm sm:text-xs md:text-xl lg:text-2xl">Convert like a Morbin pro</p>
+        </div>
+
+        <div class="mt-6 flex flex-col items-start justify-center font-IBM input">
+            <h1 class="text-md "> Enter Your Text or Code</h1>
+            
+            <input type="text" 
+            class="flex-1 w-full h-14 p-2 border-b-2  rounded-xl	mt-3  border-slate-800 glow-pulse focus:outline-none text-2xl font-mono" id="inputbox">
+            
+        </div>
+
+        <div class="mt-3 conversionType">
+
+        <h1 class="font-IBM text-md">Convert From
+         <i class="ri-arrow-right-line"></i>
+
+        </h1>
+
+        <select class="w-full h-14 p-2 border-b-2 border-dashed border-slate-800 bg-transparent text-xl font-mono focus:outline-none appearance-none" id="ConvertFrom">
+
+             <option value="text">Text</option>
+             <option value="binary">Binary</option>
+             <option value="morse">Morse</option>
+
+        </select>
+        </div>
+        
+        <div class="mt-3 conversionType">
+        <h1 class="font-IBM text-md">Convert To 
+        <i class="ri-arrow-right-line"></i>
+
+        </h1>
+
+        <select class="w-full h-14 p-2 border-b-2 border-dashed border-slate-800 bg-transparent text-xl font-mono focus:outline-none appearance-none" id="ConvertTo">
+
+            <option value="text">Text</option>
+            <option value="binary">Binary</option>
+            <option value="morse">Morse</option>
+
+        </select>
+        </div>
+
+        
+            
+        
+        <button class="group transition-transform duration-150 active:scale-95 hover:bg-indigo-400 hover:border-2 hover:text-black hover:shadow-md w-full my-4 bg-black text-white h-11  rounded-xl text-md font-pressStart2p " id="ConvertBtn">
+            <span class="tracking-[0.4em]">CONVERT</span>
+        <i class="ri-arrow-right-line align-middle ml-1 inline-block transform transition-transform duration-300 group-hover:translate-x-4"></i>
+
+        </button>
+
+
+        <div class="bg-indigo-300 border-1 rounded-md h-40 p-3 output">
+            <h2 class="font-IBM text-md">Result
+                <i class="ri-corner-right-down-line text-2xl animate-bounce align-middle relative top-[5px]"></i>
+
+            </h2>
+            <div id="outputText" class=" p-4 font-pressStart2p text-neutral-200 flex items-center justify-center flicker-result text-md output-box"> Converting at Morbin speed...</div>
+        </div>
+
+       <h2 class="text-center font-pressStart2p text-gray-700 mt-6 text-[0.4rem]">
+  Morbin magic brewed with
+  <img src="https://img.icons8.com/officel/500/undertale-heart.png" alt="heart" class="inline-block w-4 h-3 mx-1 align-middle" />
+  by Debashish
+</h2>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

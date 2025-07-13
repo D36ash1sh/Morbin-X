@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;1,200&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-pressStart2p : "Press Start 2P", "system-ui";
+    --font-IBM : 'IBM Plex Mono', 'monospace'
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 100% {
+    opacity: 1;
+  }
+  20%, 22%, 24%, 55% {
+    opacity: 0;
+  }
+  
+}
+
+.flicker {
+  animation: flicker 4s linear 1;
+}
+.flicker-hover:hover {
+  animation: flicker 4s linear infinite;
+  animation-fill-mode: forwards;
+}
+.flicker-result {
+  animation: flicker 6s linear infinite;
+  animation-fill-mode: forwards;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 7px #812cf9;
+  }
+  50% {
+    box-shadow: 0 0 25px #c8a4fb;
+  }
+}
+
+.glow-pulse {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+
+
+
