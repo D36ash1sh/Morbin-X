@@ -53,8 +53,10 @@ Smart validation to handle incorrect inputs with feedback
    cd docs
    open index.html    # macOS
    # or double-click it in your file explorer
+   ```
+---
 
-📁 File Structure
+## 📁 File Structure
 Morbin‑X/
 ├── docs/
 │   ├── index.html        ← your main UI file
@@ -65,21 +67,23 @@ Morbin‑X/
 ├── tailwind.config.js   ← Tailwind CSS config (if applicable)
 └── package.json         ← npm dependencies (if you used npm/Tailwind CLI)
 
-🧛 Fun Easter Eggs
+---
+
+## 🧛 Fun Easter Eggs
 Trying Morse → Morse? You’ll get cheeky feedback:
 “Morbius is impressed. You morbed Morse into more Morse 🧛‍♂️”
 Extra hover animations, reactive icons, and immersive vibes.
 
-💡 Contributing
+## 💡 Contributing
 Feel free to fork, add features, adjust UI, or fix bugs—just shoot a PR!
 
-🎓 Author
+## 🎓 Author
 Debashish (D36ash1sh)
 GitHub: https://github.com/D36ash1sh
 
 
-📝 License
+## 📝 License
 MIT License — because even vampires love open source.
 
 
-🎨 Made with caffeine and Morbin magic by Debashish
+## 🎨 Made with caffeine and Morbin magic by Debashish
